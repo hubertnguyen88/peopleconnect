@@ -8,8 +8,6 @@ import Menu from "@mui/material/Menu";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 import Button from "../../../components/Button";
-import Customer from "../../../components/Customers/Customer";
-import { loyalCustomers } from "../../../constants/customers";
 import { scrollTo } from "@/utils";
 
 const Hero = () => {
@@ -140,38 +138,6 @@ const Hero = () => {
                 className="md:w-4/5 w-full"
               />
             </div>
-          </div>
-        </div>
-      </div>
-      <div className="lg:flex hidden items-center justify-between px-[14rem] lg:bg-[#E4E4E8] w-full py-2">
-        <div className="w-[22%]">
-          <h1 className="text-sm font-bold text-black">Our Global Clients</h1>
-        </div>
-        <div className="w-[78%] flex justify-between items-center ">
-          {loyalCustomers.map((customer) => (
-            <Customer
-              Avatar={customer.Avatar}
-              key={customer.id}
-              id={customer.id}
-            />
-          ))}
-        </div>
-      </div>
-      <div className="lg:hidden block bg-[#FDFCFA]">
-        <div className="w-full">
-          <h1 className="lg:text-sm text-2xl pt-8 text-center font-bold text-black">
-            Our Global Clients
-          </h1>
-        </div>
-        <div className="flex justify-center mt-4">
-          <div className="grid grid-cols-2 gap-x-[3rem] gap-y-[2rem]">
-            {loyalCustomers.map((customer) => (
-              <Customer
-                Avatar={customer.Avatar}
-                key={customer.id}
-                id={customer.id}
-              />
-            ))}
           </div>
         </div>
       </div>

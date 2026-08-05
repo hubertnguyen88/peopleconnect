@@ -83,16 +83,7 @@ const Hero = () => {
                   </MenuItem>
                   <MenuItem onClick={handleCloseServices}>
                     <Link
-                      href="https://peopleconnect.world/international-payroll"
-                      target="_blank"
-                      className="pr-0 text-base"
-                    >
-                      International Payroll
-                    </Link>
-                  </MenuItem>
-                  <MenuItem onClick={handleCloseServices}>
-                    <Link
-                      href="https://peopleconnect.world/international-payroll"
+                      href="https://leads.peopleconnect.world/"
                       target="_blank"
                       className="pr-0 text-base"
                     >
@@ -236,16 +227,7 @@ const Hero = () => {
                 </MenuItem>
                 <MenuItem onClick={handleCloseServices}>
                   <Link
-                    href="https://peopleconnect.world/international-payroll"
-                    target="_blank"
-                    className="pr-0 text-base"
-                  >
-                    International Payroll
-                  </Link>
-                </MenuItem>
-                <MenuItem onClick={handleCloseServices}>
-                  <Link
-                    href="https://peopleconnect.world/international-payroll"
+                    href="https://leads.peopleconnect.world/"
                     target="_blank"
                     className="pr-0 text-base"
                   >

@@ -4,6 +4,9 @@ import Script from "next/script";
 import "./globals.css";
 import { appFonts } from "@/constants/fonts";
 
+/** Render per request so footer copyright uses the server's current year. */
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://peopleconnect.world"),
   title: "PeopleConnect.World - Your Trusted HR Partner",

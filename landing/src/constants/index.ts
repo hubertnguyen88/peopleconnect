@@ -24,14 +24,6 @@ export const services = [
       "Navigate the intricate landscape of international labor laws and regulations effortlessly. Our global compliance solutions provide comprehensive insights into employment regulations, ensuring your organization remains compliant while expanding its operations worldwide.",
   },
   {
-    id: 4,
-    image: "/images/Property_4.png",
-    title: "International Payroll Management",
-    src: "https://peopleconnect.world/international-payroll",
-    content:
-      "Simplify the complexities of international payroll with our advanced platform. We ensure accurate and compliant payroll processing across diverse regions, adhering to local regulations and tax laws. From currency conversions to timely disbursements, our service guarantees seamless payroll management for your global workforce.",
-  },
-  {
     id: 5,
     image: "/images/Property_5.png",
     title: "Global Mobility Assistance",
