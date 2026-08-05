@@ -1,0 +1,15 @@
+.DS_Store
+*.log
+
+# Dependencies & build (monorepo-wide)
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env*.example

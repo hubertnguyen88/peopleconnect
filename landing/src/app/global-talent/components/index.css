@@ -1,0 +1,10 @@
+@media screen and (min-width: 768px) {
+  .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+    left: 635px !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #menu {
+    display: none;
+  }
+}

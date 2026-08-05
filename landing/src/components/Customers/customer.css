@@ -1,0 +1,9 @@
+.customer-svg {
+  fill: #2f2b43;
+  opacity: 0.6;
+}
+
+.customer-svg:hover {
+  fill: #3d50e8;
+  opacity: 1;
+}
